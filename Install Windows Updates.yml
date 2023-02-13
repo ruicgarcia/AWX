@@ -1,6 +1,5 @@
 ---
 - name - Install Windows Updates
-  hosts: all
   gather_facts: false
   tasks:
   - name: Install all updates with automatic reboots
